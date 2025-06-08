@@ -1,0 +1,59 @@
+﻿
+
+
+.btn-wrapper {
+    padding-left: 0 !important; /* Remove Bootstrap padding */
+    margin-left: 0 !important; /* Optional: remove margin if any */
+}
+
+@media (max-width: 768px) {
+    .btn-wrapper {
+        margin-left: -15px; /* Shift buttons more to the left on small screens */
+    }
+}
+
+
+.second-btn {
+    margin-top: 20px !important;
+    margin-left: 3px !important;
+    margin-left: -30px !important; /* adjust as needed */
+    position: relative !important;
+}
+/* Push second button to the left on small screens */
+@media (max-width: 992px) {
+    .second-btn {
+        margin-left: -60px !important; /* adjust as needed */
+        position: relative !important;
+    }
+}
+
+
+/* Optional: If you want to completely remove the horizontal gap */
+.row {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.btn-wrapper {
+    padding-left: -10px; /* Remove padding from columns */
+    padding-right: 0; /* Remove padding from columns */
+}
+
+
+.chw {
+    width: 205px !important;
+    max-width: 255px !important;
+    margin-right: 60px !important;
+    background-color:green !important;
+}
+
+@media(max-width:992px) {
+
+    .chw {
+        width: 255px !important;
+        max-width: 255px !important;
+        left: 60px !important;
+        position: relative !important;
+    }
+}
+

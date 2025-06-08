@@ -1,0 +1,135 @@
+﻿
+.hdr {
+    z-index: 1045;
+}
+
+.hdrimg {
+    width: 150px;
+    height: auto;
+    margin-top: -50px;
+}
+
+.offc {
+    margin-top: 60px !important;
+    height: auto !important;
+}
+
+.crdma {
+    max-width: 99%;
+    width: 99%;
+    box-shadow: none;
+    border: none;
+    outline: none;
+}
+
+.crdma2 {
+    max-width: 99%;
+    width: 99%;
+    box-shadow: none;
+    border: none;
+    outline: none;
+}
+
+.crdma3 {
+    max-width: 99%;
+    width: 99%;
+    box-shadow: none;
+    border: none;
+    outline: none;
+}
+
+.chclr {
+    background-color: green;
+    padding: 10px 30px;
+    font-size: 16px;
+}
+
+.chclr2 {
+    border: 2px solid #28a745;
+    border-radius: 5px;
+    padding: 10px 30px;
+    color: green;
+    font-size: 16px;
+    background: transparent;
+}
+
+.chclr3 {
+    background-color: green;
+    padding: 10px 30px;
+    font-size: 16px;
+    width: 100%;
+}
+
+.chclr4 {
+    left: -30px;
+    position: relative;
+    border: 2px solid #28a745;
+    border-radius: 5px;
+    padding: 10px 3px;
+    color: green;
+    font-size: 16px;
+    width: 100%;
+}
+
+.chclr5 {
+    background-color: green;
+    padding: 10px 30px;
+    font-size: 16px;
+    width: 100%;
+}
+
+.chclr6 {
+    left: -30px;
+    position: relative;
+    border: 2px solid #28a745;
+    border-radius: 5px;
+    padding: 10px 3px;
+    color: green;
+    font-size: 16px;
+    width: 100%;
+}
+
+.chimgclr {
+    height: 300px !important;
+    width: 300px !important;
+    object-fit: cover !important;
+}
+
+.chimgclr2 {
+    height: 300px !important;
+    width: 300px !important;
+    object-fit: cover !important;
+}
+
+.chimgclr3 {
+    height: 300px !important;
+    width: 300px !important;
+    object-fit: cover !important;
+    border-bottom: none !important;
+}
+
+.cmr5 {
+    color: black;
+}
+
+.cmr45 {
+    border: none !important;
+}
+
+.cmr {
+    font-size: 17px;
+    color: #555;
+}
+
+.cmrh {
+    text-align: center;
+}
+.vm {
+    text-align: center;
+}
+.bgc {
+    background-color: lightgray;
+}
+.card:hover {
+    transform: none !important; /* Stops the movement */
+}

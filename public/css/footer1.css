@@ -1,0 +1,188 @@
+﻿.wrapper {
+    overflow-x: hidden;
+    width: 100% !important;
+    position: absolute !important;
+    left: -10px;
+}
+.wrapper {
+    outline: 1px solid !important;
+    overflow:hidden !important;
+}
+
+.testimonials {
+    text-align: center;
+    padding: 30px;
+    background: white;
+}
+
+.testimonial-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.testimonial-card {
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 300px;
+    text-align: left;
+    transition: transform 0.3s ease;
+}
+
+    .testimonial-card:hover {
+        transform: translateY(-5px);
+    }
+
+    .testimonial-card p {
+        font-style: italic;
+        color: #555;
+    }
+
+    .testimonial-card strong {
+        display: block;
+        margin-top: 10px;
+        color: #333;
+    }
+
+
+#how-it-works {
+    text-align: center;
+    padding: 1px 1px;
+    background: white;
+    color: white;
+    height: auto;
+    padding: 70px;
+}
+
+/* Steps container */
+.steps-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+/* Step cards */
+.step {
+    background: white;
+    color: #333;
+    padding: 20px;
+    width: calc(33.333% - 60px); /* Responsive grid: 3 per row */
+    max-width: 300px;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+    /* Hover effect */
+    .step:hover {
+        transform: translateY(-5px);
+    }
+
+/* Icons */
+.icon {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+    .step {
+        width: calc(50% - 20px); /* 2 steps per row */
+    }
+}
+
+@media (max-width: 768px) {
+    .step {
+        width: 100%; /* 1 step per row on small screens */
+        max-width: auto;
+    }
+}
+
+
+@media (max-width: 992px) {
+    #how-it-works
+
+{
+    margin-top: 10px !important; /* Adjust as needed */
+    position: relative !important;
+}
+
+}
+
+.txt {
+    color: #555 !important;
+    font-size: 22px !important;
+}
+
+.fsec1 {
+    width: 310px;
+    margin-top: -90px;
+    margin-left: -110px;
+}
+.clul {
+    margin-top: -70px;
+}
+
+@media(max-width:992px) {
+
+    .clul {
+        margin-top: -10px;
+    }
+}
+.ft1 {
+    width: 200px;
+    margin-left: -1px;
+    margin-top: -115px;
+    position: relative;
+    left: -20px;
+}
+.ft2 {
+    max-width: 250px;
+    width: 250px !important;
+    top: -75px;
+    position: relative;
+    left: 1px;
+}
+.ft3 {
+    margin-top: -1px;
+}
+.ft4 {
+    margin-top: -1px;
+}
+.ft5 {
+    text-align: left;
+    width: 300px;
+}
+.ft6 {
+    background-color: rgba(0, 0, 0, 0.2);
+}
+.ft7 {
+    text-decoration: none;
+}
+.ft8 {
+    color: black;
+}
+.ft9 {
+    background-color: #1c2331;
+}
+.ft10 {
+    background-color: #6351ce;
+}
+.ft11 {
+    text-decoration: none;
+}
+.ft12 {
+    color: mediumpurple;
+}
+.ft13 {
+    color: blue;
+}
+.ft14 {
+    color: green;
+}

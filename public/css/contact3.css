@@ -1,0 +1,439 @@
+﻿.modal-overlay {
+  position: fixed;
+  inset: 0;
+  display: none; /* Use JavaScript to show */
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+  background: transparent;
+  pointer-events: auto;
+}
+
+.loader-wrapper {
+  background: transparent;
+  border-radius: 12px;
+  text-align: center;
+  color: white;
+  width: 100%;
+  max-width: 300px;
+  pointer-events: auto;
+}
+
+.notification-card {
+  background: #2196f3;
+  border-radius: 16px;
+  padding: 30px 20px;
+  text-align: center;
+  color: #fff;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+}
+
+.notification-card h2 {
+  margin: 20px 0 10px;
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.notification-card p {
+  margin: 0 0 20px;
+  font-size: 15px;
+  line-height: 1.4;
+}
+
+/* SVG Styles */
+svg {
+  width: 100px;
+  height: 100px;
+  display: block;
+  margin: 0 auto;
+}
+
+/* Circular Animation */
+.path-circle {
+  fill: none;
+  stroke: #28a745;
+  stroke-width: 4;
+  stroke-dasharray: 150;
+  stroke-dashoffset: 0;
+  transform-origin: 50% 50%;
+  animation: spinCircle 3s linear forwards;
+}
+
+.circle-inner {
+  fill: white;
+  stroke: #fff;
+  stroke-width: 3;
+}
+
+/* Tick Animation */
+.path-tick {
+  fill: none;
+  stroke: #f44336;
+  stroke-width: 6;
+  stroke-dasharray: 50;
+  stroke-dashoffset: 50;
+  opacity: 0;
+  animation: drawTick 0.6s ease-out forwards;
+  animation-delay: 3s;
+}
+
+@keyframes spinCircle {
+  0% {
+    stroke: #28a745;
+  }
+  33% {
+    stroke: #ff9800;
+  }
+  66% {
+    stroke: #ff5722;
+  }
+  100% {
+    stroke: #2196f3;
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes drawTick {
+  to {
+    stroke-dashoffset: 0;
+    opacity: 1;
+  }
+}
+
+/* Optional Close Button */
+.close-btn {
+  margin-top: 10px;
+  background-color: #fff;
+  color: #2196f3;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.close-btn:hover {
+  background-color: #e0e0e0;
+}
+.cmailc{
+display:none;
+color:red;
+border:none;
+width:300px;
+font-size:15px;
+}
+.cphonec{
+display:none;
+color:red;
+border:none;
+width:300px;
+font-size:15px;
+}
+
+.chhdr {
+    z-index: 1045;
+}
+
+.chimg1 {
+    width: 150px !important;
+    height: auto;
+    margin-top: -50px;
+}
+
+.offc {
+    margin-top: 60px !important;
+    height: auto !important;
+}
+
+.o1 {
+    max-width: 99%;
+    width: 99%;
+    box-shadow: none;
+    border: none;
+    outline: none;
+}
+
+.o2 {
+    background-color: green;
+    padding: 10px 30px;
+    font-size: 16px;
+    width: 100%;
+}
+
+.o3 {
+    left: 10px;
+    position: relative;
+    border: 2px solid #28a745;
+    border-radius: 5px;
+    padding: 10px 3px;
+    color: green;
+    font-size: 16px;
+    width: 100%;
+}
+
+.oimg {
+    height: 300px;
+    width: 300px;
+    object-fit: cover;
+    border-bottom: none;
+}
+
+.cmo1 {
+    max-width: 99%;
+    width: 99%;
+    box-shadow: none;
+    border: none;
+    outline: none;
+}
+
+
+.cmo3 {
+    background-color: green;
+    padding: 10px 30px;
+    font-size: 16px;
+    width: 100%;
+}
+
+.cmo4 {
+    left: -30px;
+    position: relative;
+    border: 2px solid #28a745;
+    border-radius: 5px;
+    padding: 10px 3px;
+    color: green;
+    font-size: 16px;
+    width: 100%;
+}
+
+.cimg15 {
+    height: 300px;
+    width: 300px;
+    object-fit: cover;
+}
+
+.cma5 {
+    max-width: 99%;
+    width: 99%;
+    box-shadow: none;
+    border: none;
+    outline: none;
+}
+
+.cma6 {
+    background-color: green;
+    padding: 10px 30px;
+    font-size: 16px;
+    width: 100%;
+}
+
+.cma7 {
+    left: -30px;
+    position: relative;
+    border: 2px solid #28a745;
+    border-radius: 5px;
+    padding: 10px 3px;
+    color: green;
+    font-size: 16px;
+    width: 100%;
+}
+
+.cimg7 {
+    height: 300px;
+    width: 300px;
+    object-fit: cover;
+}
+
+.s {
+    color: black;
+}
+
+.cb {
+    border: none !important;
+}
+
+.tp {
+    color: black;
+}
+
+.cbt {
+    border: none !important;
+}
+
+
+.iti {
+    width: 100%;
+}
+
+.iti__flag {
+    display: inline-block !important;
+}
+
+.h123 {
+    color: orange;
+}
+
+.ttp {
+    width: 355px;
+}
+
+.phdiv {
+    display: grid;
+    gap: 1px;
+    align-items: center;
+}
+
+.ph2txt {
+    margin-left: 100px;
+    position: relative;
+    margin-top: -35px;
+}
+
+.ccph {
+    width: 50px;
+}
+
+
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.card {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    width: 300px;
+    max-width: 100%;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: transform 0.2s ease;
+}
+
+    .card:hover {
+        transform: translateY(-5px);
+    }
+
+    .card h3 {
+        margin-top: 0;
+    }
+
+    .card p {
+        color: #555;
+    }
+
+@media (max-width: 900px) {
+    .card {
+        width: 45%;
+    }
+}
+
+@media (max-width: 600px) {
+    .card {
+        width: 100%;
+    }
+}
+
+
+.crdp9 {
+    max-width: 99%;
+    width: 99%;
+    box-shadow: none;
+    border: none;
+    outline: none;
+}
+
+.crdp10 {
+    max-width: 99%;
+    width: 99%;
+    box-shadow: none;
+    border: none;
+    outline: none;
+}
+
+.crdp7 {
+    max-width: 99%;
+    width: 99%;
+    box-shadow: none;
+    border: none;
+    outline: none;
+}
+
+.crdbtn1 {
+    border: 2px solid #28a745;
+    border-radius: 5px;
+    padding: 5px;
+    color: green;
+    width: 200px;
+}
+
+.crdbtn12 {
+    width: 200px;
+}
+
+.crdbtn67 {
+    height: 300px !important;
+    width: 300px !important;
+    object-fit: cover;
+}
+
+.crdbtn68 {
+    border: 2px solid #28a745;
+    border-radius: 5px;
+    padding: 5px;
+    color: green;
+    width: 200px;
+}
+
+.crdbtn69 {
+    width: 200px;
+}
+
+.crdimg12 {
+    height: 300px !important;
+    width: 300px !important;
+    object-fit: cover;
+}
+
+.crdbtnc {
+    border: 2px solid #28a745;
+    border-radius: 5px;
+    padding: 5px;
+    color: green;
+    width: 200px;
+}
+
+.crdsp {
+    width: 100px !important;
+    max-width: 100px;
+}
+
+.crdt {
+    width: 200px;
+}
+
+.crdsl1 {
+    height: 300px !important;
+    width: 300px !important;
+    object-fit: cover;
+}
+
+.stcolor {
+    color: green !important;
+}
+
+.cbts {
+    border: none !important;
+}
+
+.tpc1 {
+    color: green !important;
+}
+.brdr {
+    border: none;
+}
+.card:hover {
+    transform: none !important; /* Stops the movement */
+}

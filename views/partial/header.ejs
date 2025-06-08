@@ -1,0 +1,31 @@
+﻿<header class="header d-flex align-items-center justify-content-between p-3 bg-white flex-wrap position-relative chhdr" style="z-index:1055;">
+        <!-- Logo -->
+        <div class="logo" >
+           <a href="/"> <img src="/images/logo13.png" class="chimg1" style="margin-top:-5px;height:60px;width:160px !important;"/></a>
+        </div>
+
+        <!-- Nav (centered on desktop) -->
+        <nav class="d-none d-md-flex gap-4 position-absolute top-50 start-50 translate-middle-y">
+            <a href="/" class="text-dark fw-bold text-decoration-none">Home</a>
+            <a href="/viewmore" class="text-dark fw-bold text-decoration-none">About</a>
+            <a href="/contact" class="text-dark fw-bold text-decoration-none">Contact</a>
+            <a href="/faqs" class="text-dark fw-bold text-decoration-none">FAQs</a>
+        </nav>
+
+        <!-- Hamburger button (right-aligned, small, only on mobile) -->
+        <button id="toggleBtn" class="btn ms-auto d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNav">
+            <span id="icon" style="color:white">&#9776;</span>
+        </button>
+    </header>
+
+
+    <!-- Offcanvas Menu for Mobile -->
+    <div class="offcanvas offcanvas-start offc" tabindex="-1" id="offcanvasNav" aria-labelledby="offcanvasNavLabel" style="margin-top:61px !important;">
+
+        <div class="offcanvas-body d-flex flex-column gap-3">
+            <a href="/" class="text-dark fw-bold text-decoration-none">Home</a>
+            <a href="/viewmore" class="text-dark fw-bold text-decoration-none">About</a>
+            <a href="/contact" class="text-dark fw-bold text-decoration-none">Contact</a>
+            <a href="/faqs" class="text-dark fw-bold text-decoration-none">FAQs</a>
+        </div>
+    </div>
